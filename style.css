@@ -28,13 +28,13 @@ body {
 }
 .team__member {
   margin: 25px 8px;
-  width: 132px;
+  width: 160px;
 }
 .team__member--translateY {
   transform: translateY(60px);
   margin-left: 15px;
   margin-right: 8px;
-  width: 132px;
+  width: 160px;
 }
 
 .team__member__top {
