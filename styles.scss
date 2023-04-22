@@ -1,0 +1,67 @@
+body {
+  font-family: Poppins;
+  font-weight: 500;
+}
+
+.textContent {
+    padding: 5px;
+    &__title {
+        font-size: 30px;
+        font-weight: 700;
+        margin: 50px 0 25px 0;
+    }
+    &__subTitle {
+        font-size: 18px;
+        font-weight: 600;
+        margin-bottom: 5px;
+    }
+    &__description {
+        font-weight: 400;
+        font-size: 14px;
+        margin: 0;
+    }
+}
+
+.team {
+  display: flex;
+  flex-wrap: wrap;
+
+  &__member {
+    margin: 25px 8px;
+    width: 132px;
+        
+  }
+
+  &__member--translateY {
+    transform: translateY(60px);
+    margin-left: 15px;
+    margin-right: 8px;
+    width: 132px
+  }
+}
+
+.team__member__top {
+  display: flex;
+
+  &__photo {
+    max-width: 90%;
+    margin-right: 18px;
+  }
+
+  &__position {
+    transform-origin: top left;
+    transform: rotate(90deg);
+    white-space: nowrap; //Suprime saltos de linea del texto original
+    font-weight: 400;
+    font-size: 10px;
+    margin-top: 2px;
+  }
+}
+
+.team__member__bottom {
+  &__name {
+    margin: 5px 0;
+    font-weight: 600;
+    font-size: 16px;
+  }
+}
