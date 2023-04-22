@@ -1,14 +1,15 @@
 # my-team-page
 
-xxx
+This is the solution to "my team page" proyect of Make It Real.
 
 ## Overview
-
-xxx
-
 ### The challenge
 
-xxx
+The user will see a work team on screen and the content will have two looks:
+
+- One that makes the team members be placed in pairs with the right one being placed a couple px to the bottom. 
+
+- A second one that makes the title and description text on the upper half of the screen team members appear in two rows of three, with the center one being placed a couple px below the others. 
 ### Screenshots
 - On a screen of 375px:  
 
