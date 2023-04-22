@@ -3,6 +3,15 @@ body {
   font-weight: 500;
 }
 
+.everything {
+  width: fit-content;
+  block-size: fit-content;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
 .textContent {
   padding: 5px;
 }
@@ -11,12 +20,12 @@ body {
   font-weight: 700;
   margin: 50px 0 25px 0;
 }
-.textContent__subTitle {
+.textContent__whoWeAre__subTitle {
   font-size: 18px;
   font-weight: 600;
   margin-bottom: 5px;
 }
-.textContent__description {
+.textContent__whoWeAre__description {
   font-weight: 400;
   font-size: 14px;
   margin: 0;
@@ -30,7 +39,7 @@ body {
   margin: 25px 8px;
   width: 160px;
 }
-.team__member--translateY {
+.team .--translateY {
   transform: translateY(60px);
   margin-left: 15px;
   margin-right: 8px;
@@ -57,6 +66,52 @@ body {
   margin: 5px 0;
   font-weight: 600;
   font-size: 16px;
+}
+
+@media (min-width: 375px) {
+  .everything {
+    max-width: 360px;
+    flex-wrap: wrap;
+  }
+}
+@media (min-width: 890px) {
+  .everything {
+    max-width: 890px;
+  }
+  .textContent {
+    display: flex;
+    flex-direction: row;
+    margin: 60px 5px;
+  }
+  .textContent__title {
+    margin: 0;
+    flex-basis: 50%;
+  }
+  .textContent__whoWeAre {
+    display: flex;
+    flex-basis: 40%;
+    flex-direction: column;
+  }
+  .textContent__whoWeAre__subTitle {
+    margin-top: 2px;
+  }
+  .textContent__whoWeAre__description {
+    margin-top: 15px;
+  }
+  .team__member {
+    width: 100%;
+    max-width: 250px;
+    margin: 40px 20px;
+  }
+  .team .--translateY {
+    width: 100%;
+    max-width: 250px;
+    margin: 40px 20px;
+    transform: none;
+  }
+  .team .--center {
+    transform: translateY(70px);
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
