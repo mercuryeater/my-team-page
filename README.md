@@ -9,7 +9,7 @@ The user will see a work team on screen and the content will have two looks:
 
 - One that makes the team members be placed in pairs with the right one being placed a couple px to the bottom. 
 
-- A second one that makes the title and description text on the upper half of the screen team members appear in two rows of three, with the center one being placed a couple px below the others. 
+- A second one that makes the title and description text on the upper half of the screen team members appear in two rows of three member each, with the center one being placed a couple px below the others. 
 ### Screenshots
 - On a screen of 375px:  
 
@@ -27,11 +27,13 @@ The user will see a work team on screen and the content will have two looks:
 - Sass 
 ### What I learned
 
-xxx
+I had another practice with 'flexbox' and I think I'm starting to get sense out of it, however in some partes I had to skip using it because it didn't work (maybe due to something I'm still trying to understand). I relied a lot in the media query for the size and for the first time I proceeded with a rough scheme of how I was going to do the html and the classes.
+
+What I used that was new to me was the property `white-space` with the value `nowrap` that makes a text be plain on just one line, ignoring every newline that mey be applied or the original text has.
 
 ### Continued development
 
-xxx
+I have questions related to how can I add the `--modifiers` and other classes in the html and css that make sense; I mean following the rules of the BEM notation and having the "best practice". And at the same time I feel I need to understand the workflow involved in scaling and changing the layout of a page from mobile dev to desktop and bigger screens development.
 
 ### Useful resources
 
